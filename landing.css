@@ -1,0 +1,603 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.btn {
+  padding: 0.5em 0.9em;
+  background-color: #bedef4f1;
+  border-radius: .6rem;
+  font-size: 1rem;
+  color: black;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.navbar {
+  padding: 13px 0px;
+  background-color: #fff;
+  /* position: sticky;
+  top: 0;
+  z-index: 10; */
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a:hover {
+  color: #00a8e8 !important;
+}
+
+.navbar-nav li a {
+  float: right;
+  text-align: left;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.nav-link {
+  color: #555 !important;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-brand img {
+  width: 6rem;
+
+}
+
+img {
+  width: 100%;
+}
+
+.navbar .icon {
+  width: 1.5rem;
+  border-radius: 50%;
+}
+
+
+.navbar {
+  padding: 13px 0px;
+  background-color: #fff;
+  /* position: sticky;
+  top: 0;
+  z-index: 10; */
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a:hover {
+  color: #00a8e8 !important;
+}
+
+.navbar-nav li a {
+  float: right;
+  text-align: left;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.nav-link {
+  color: #555 !important;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-brand img {
+  width: 6rem;
+
+}
+
+img {
+  width: 100%;
+}
+
+.navbar .icon {
+  width: 1.5rem;
+  border-radius: 50%;
+}
+
+#mid-cont {
+  background: linear-gradient(#f5f7fa, #daddfb);
+  padding: 50px 10px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  /* position: fixed;
+  z-index: 999; */
+}
+
+#mid-cont h1 {
+  text-align: center;
+}
+
+#mid-cont p {
+  width: 100%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+#mid-cont button {
+  margin: 10px auto;
+  background: #000;
+  color: white;
+  padding: 0.625rem 1.5rem;
+}
+
+#mid-cont img {
+  width: 127px;
+  display: none;
+  height: 100px;
+  border-radius: 50%;
+  padding: 0 10px;
+  object-fit: cover;
+  position: absolute;
+
+}
+
+#mid-cont #left-nav-img {
+  left: 0;
+}
+
+#mid-cont #right-nav-img {
+  right: 0;
+}
+
+.content {
+  background-color: #fff;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content p {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.content>img {
+  width: 40px;
+  margin-top: 20px;
+}
+
+.feature-content {
+  background-color: #f2f2f2f2;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #f5f7fa; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.main-container svg {
+  width: 2rem;
+  border-radius: 20%;
+}
+
+.card {
+  /* background-color: #f1f1f1; */
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.card img {
+  width: 20%;
+  margin-bottom: 1em;
+}
+
+.card p {
+  padding: 1.5em 0;
+}
+
+#pc-download {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 50px;
+  gap: 2em;
+}
+
+.card-body small {
+  display: block;
+}
+
+.card button {
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 2rem;
+  font-weight: bold;
+  border: none;
+  font-size: 1rem;
+}
+
+.card button:hover {
+  background-color: #39cafa;
+  color: #fff;
+}
+
+.card:hover {
+  box-shadow: 0 2px 20px #333;
+}
+
+.mobile-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.mobile-information .mobile {
+  width: 30px;
+}
+
+#mobile-download {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 50px;
+  gap: 90px;
+}
+
+.ajust {
+  margin-bottom: 3em;
+}
+
+.design-1 span {
+  color: rgb(255, 0, 93);
+}
+
+.design-1 a {
+  text-decoration: none;
+  font-size: 0.5rem;
+  display: block;
+  padding-top: 3px;
+  color: #fff;
+}
+
+
+.design-2 a {
+  text-decoration: none;
+  font-size: 0.5rem;
+  display: block;
+  padding-top: 3px;
+  color: #fff;
+}
+
+.design-2 span {
+  color: rgb(255, 0, 93);
+}
+
+#text-history {
+  padding: 1em 1.5em;
+}
+
+.text-information #text-history {
+  width: 90%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+#toolkit {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#toolkit::after {
+  content: '';
+  background-color: #00a8e8;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 5px auto;
+}
+
+#toolkit-short {
+  padding: 1em 1.5rem;
+}
+
+.text-information #toolkit-short {
+  width: 80%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+
+.other-down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+  margin: 0 2em;
+
+}
+
+#pdf_toolkit {
+
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 50px;
+  gap: 1em;
+}
+
+.pdf-card {
+  background-color: #fff;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.pdf-card img {
+  width: 20%;
+  margin-bottom: 1em;
+}
+
+#pdf-one {
+  padding-top: 1em;
+  padding-bottom: 2em;
+  font-size: 0.9rem;
+}
+
+#pdf-two {
+  padding-top: 0.9em;
+  font-size: 0.9rem;
+}
+
+#pdf-three {
+  font-size: 0.9rem;
+}
+
+#pdf-four {
+  font-size: 0.9rem;
+  padding-top: 1rem;
+  padding-bottom: 0.4em;
+}
+
+.pdf-card:hover {
+  box-shadow: 0 2px 20px #333;
+}
+
+.pdf-card small {
+  display: block;
+}
+
+.pdf-card button {
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 2rem;
+  font-weight: bold;
+  border: none;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.pdf-card button:hover {
+  background-color: #39cafa;
+  color: #fff;
+}
+
+footer {
+  position: relative;
+  /* margin: 1.5rem; */
+  padding: 10rem 1rem 1rem 1rem;
+}
+
+
+footer #build {
+  width: 10rem;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+}
+
+#make_com {
+  width: 1.5rem;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.feature-footer {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  /* max-width: 1300px;
+  margin: auto; */
+}
+
+footer ul li a:hover {
+  color: #00a8e8;
+}
+
+footer article #small-card {
+  width: 330px;
+  background: linear-gradient(315deg, #c4cad8, #f2f5f8);
+  padding: 25px;
+  border-radius: 20px;
+}
+
+#size {
+  font-size: 1rem;
+}
+
+#small-card {
+  display: flex;
+  gap: 2rem;
+}
+
+.box-btn {
+  background: black;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 0.625rem;
+  font-size: 0.6rem;
+}
+
+
+
+.cut {
+  width: 5em;
+}
+
+#option {
+  padding: 6rem 1rem 0 2rem;
+}
+
+#option select {
+  border: none;
+  outline: none;
+  background-color: #f2f5f8;
+  padding: 5px;
+}
+
+.text-cont {
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media (min-width: 500px) {
+  #mid-cont img {
+    display: none;
+  }
+
+  #mid-cont p {
+    width: 80%;
+  }
+
+  .content p {
+    width: 80%;
+  }
+
+  #pc-download {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #mobile-download {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #pdf_toolkit {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .feature-footer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 740px) {
+  #mid-cont img {
+    display: block;
+  }
+
+
+  #mid-cont p {
+    width: 70%;
+  }
+
+  .content p {
+    width: 70%;
+  }
+
+  #pc-download {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #mobile-download {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #pdf_toolkit {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .feature-footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 920px) {
+  #mid-cont img {
+    display: block;
+  }
+
+  #mid-cont p {
+    width: 60%;
+  }
+
+  .content p {
+    width: 65%;
+  }
+
+  #pc-download {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #pdf_toolkit {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .feature-footer {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+
+@media (min-width: 1200px) {
+  #mid-cont img {
+    display: block;
+  }
+
+  #pc-download {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #pdf_toolkit {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .feature-footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
